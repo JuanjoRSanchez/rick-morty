@@ -4,12 +4,22 @@ import Cabecera from '../Cabecera';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import lupa from '../lupa.png';
-import BB from '../img/breakingbad.jpg';
+//import BB from '../img/breakingbad.jpg';
 import ImageList from "./GaleriaTemporada";
 
 const titulo = 'Breaking Bad'
 const numeroTemporada = 1;
+const list = [
+    'Título',
+    'Título',
+    'Título',
+    'Título',
+    'Título',
+    'Título',
+    'Título',
+]
 
+/*
 const images01 = [
     BB,
     BB,
@@ -22,7 +32,7 @@ const images01 = [
     BB,
     BB,
 ]
-
+*/
 function PaginaTemporada() {
     return (
         <div className="Paginausuario">
@@ -39,7 +49,7 @@ function PaginaTemporada() {
                 <p >Temporada: {numeroTemporada}</p>
 
                 <div className='paginausuario-caja'>
-                <ImageList source={images01} />
+                <ImageList source={list} />
                 </div>
             </div>
             <Footer />

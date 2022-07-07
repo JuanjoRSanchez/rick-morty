@@ -18,6 +18,3 @@ export default function HomePage() {
     </div>
   );
 }
-/*
-<Link to="/App" className='HomePage-link'>Entrar</Link>
-*/

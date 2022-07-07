@@ -1,18 +1,17 @@
 import React from "react";
 //import  Po from '../Services/Get'
 
-
 const titulo = 'titulo';
 const ImageList = ({source}) => {
     return (
-        source.map((img, idx) => (
+        source.map((caracter, idx) => (
             <>
                <div className='paginaUsuario-serie'>
                     <a href="/PaginaSerie">
-                    <img src={img} alt={'img_' + idx} key={'img_' + idx}  />
+                    <img src={caracter.image} alt={'cuadro del personaje' + caracter.name} key={'img_' + idx}  />
                     </a>
                     <div>
-                        {titulo}
+                        {caracter.name}
                     </div>
                 </div> 
             </>
