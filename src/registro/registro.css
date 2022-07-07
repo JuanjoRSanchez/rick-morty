@@ -1,0 +1,92 @@
+.registro {
+    background-color: #282c34;
+    width: 100%;
+    border: 0.5px solid rgb(165, 147, 42);
+    
+}
+
+.registro-container {
+    width: 40%;
+    min-width: 300px;
+    max-width: 450px;
+    height: 480px;
+    background-color: rgb(17, 44, 80);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(46, 43, 43, 0.2), 0 6px 20px 0 rgba(170, 133, 133, 0.19);
+
+
+}
+.registro-container p{
+    font-size: 1.5rem;
+ }
+.cajaBtn{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn-entrar {
+    margin: auto;
+    text-decoration: none;
+    color: aquamarine;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-entrar:hover {
+    text-decoration: none;
+    color: rgb(25, 117, 85);
+}
+
+.registro-link {
+    color: #61dafb;
+    text-decoration: none;
+    border: 1px solid #61dafb ;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 25px;
+  }
+  .registro-link:hover{
+    
+    animation-name: btn;
+    animation-duration: 1s;
+    animation: btn 1s alternate-reverse;
+}
+  
+ 
+  @keyframes btn{
+    to{
+      background-color: #b8d9e2;
+      color: #000000;
+    }
+}
+/*
+input {
+    width: 350px;
+    min-width: 300px;
+    height: 2em;
+    min-height: 1.5em;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+*/
+
+.input {
+    width: 40%;
+    min-width: 250px;
+    height: 2em;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 70%;
+    margin-bottom: 15px;
+}

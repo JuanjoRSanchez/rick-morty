@@ -1,0 +1,63 @@
+.HomePage {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.HomePage-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HomePage-logo {
+  width: 40%;
+  min-width: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HomePage-texto {
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+.HomePage-cajaBtn {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.HomePage-link {
+  color: #61dafb;
+  text-decoration: none;
+  border: 1px solid #61dafb;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 15px;
+  flex-grow: 1;
+  flex-basis: 20rem;
+}
+
+.HomePage-link:hover {
+  animation-name: btn;
+  animation-duration: 1s;
+  animation: btn 1s alternate-reverse;
+}
+
+@keyframes btn {
+  to {
+    background-color: #b8d9e2;
+    color: #000000;
+  }
+}
