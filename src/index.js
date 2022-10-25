@@ -1,15 +1,20 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import './index.css';
-import Entrada from './Entrada';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import Personajes from './PaginaPersonjes/Personajes';
+import PersonajeDetalle from './PaginaPersonaje/PersonajeDetalle';
+import HomePage from './componentes_Home/HomePage';
 
-render(
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+root.render(
   <BrowserRouter>
-    <Entrada />
-  </BrowserRouter>,
-  document.querySelector('#root')
-)
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/personajes' element={<Personajes />} />
+      <Route path='/personaje' element={<PersonajeDetalle />} />
+    </Routes>
+  </BrowserRouter>
+);
 
-reportWebVitals();

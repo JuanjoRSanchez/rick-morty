@@ -1,0 +1,228 @@
+.Paginausuario {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.paginaUsuario-cuerpo {
+  display: flex;
+}
+
+.paginaUsuario-body {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.paginaUsuario-body>p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.nuevaSerie-cajaBtn {
+  width: 200px;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+
+}
+
+.nuevaSerie-link {
+  height: 50px;
+  padding: 15px;
+  color: #61dafb;
+  text-decoration: none;
+  border: 1px solid #61dafb;
+  border-radius: 7px;
+  background-color: #282c34;
+  margin: auto;
+}
+
+.nuevaSerie-link:hover {
+  animation-name: btn;
+  animation-duration: 1s;
+  animation: btn 1s alternate-reverse;
+}
+
+@keyframes btn {
+  to {
+    background-color: #b8d9e2;
+    color: #000000;
+  }
+}
+
+.noneDisplay {
+  display: none;
+}
+
+.cajaBuscador {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #61dafb;
+  padding-bottom: 10px;
+  overflow: hidden;
+  animation-name: ocultar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes ocultar {
+  0% {
+    height: 100px;
+
+  }
+
+  100% {
+    height: 0px;
+  }
+}
+
+.cajaBuscadorDes {
+  position: relative;
+  display: block;
+  width: 500px;
+  height: 0px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #61dafb;
+  padding-bottom: 10px;
+  overflow: hidden;
+  animation-name: mostrar;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mostrar {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 150px;
+  }
+}
+
+p {
+  color: aliceblue;
+}
+
+.input-buscador {
+  width: 50%;
+  height: 30px;
+
+}
+
+.paginaUsuario-lupa {
+  width: 38px;
+  height: 31px;
+  border-radius: 10px;
+  border: 3px solid rgb(141, 140, 140);
+  background-color: white;
+
+}
+
+.paginaUsuario-lupa:hover {
+  animation-name: btn;
+  animation-duration: 1s;
+  animation: btn 1s alternate-reverse;
+}
+
+@keyframes btn {
+  to {
+    background-color: rgb(13, 177, 163);
+  }
+}
+
+
+.paginausuario-caja {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+}
+
+.paginaUsuario-serie {
+  width: 150px;
+  height: 280px;
+  border: 3px solid rgb(13, 177, 163);
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(77, 75, 75, 0.438), 0 3px 10px 0 rgba(150, 147, 147, 0.486);
+
+}
+
+.paginaUsuario-serie img {
+  width: 100%;
+  height: 220px;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.paginaUsuario-serie div {
+  margin-top: 8px;
+  color: aliceblue;
+
+}
+
+/* Caja lateral Series pendientes*/
+.paginaUsusario-lateral {
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid rgb(13, 177, 163);
+  width: 30%;
+  height: 50%;
+  margin-top: 110px;
+  margin-right: 15px;
+}
+
+.paginaUsusario-lateralTitulo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #b8d9e2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.paginaUsuario-seriePendientes {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.paginaUsuario-seriePendientes div {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #b8d9e2;
+
+}
+
+@media (max-width: 780px) {
+  .paginaUsusario-lateral {
+    display: none;
+  }
+}

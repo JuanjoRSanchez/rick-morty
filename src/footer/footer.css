@@ -1,0 +1,50 @@
+.footer{
+    width: auto;
+    height: 150px;
+}
+.footer-header {
+    background-color: rgb(35, 127, 143);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+hr{
+    color: rgb(38, 138, 133);
+}
+.footer-logo {
+    width: 9rem;
+}
+
+.footer-lista {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    min-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+
+
+
+}
+.footer-lista a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.footer-lista a:hover{
+    color: rgb(153, 108, 108);
+}
+@media  (max-width: 600px) {
+    .footer-lista {
+        width: 40%;
+        font-size: 12px;
+    }
+    .footer-lista a{
+        font-size: 12px;
+    }
+}

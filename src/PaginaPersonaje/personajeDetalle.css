@@ -1,0 +1,78 @@
+.body_personjeDetalle {}
+
+.box_episodio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paginaUsuario-episodio {
+    width: 90%;
+    border: 3px solid rgb(13, 177, 163);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(77, 75, 75, 0.438), 0 3px 10px 0 rgba(150, 147, 147, 0.486);
+    display: flex;
+    flex-flow: wrap;
+}
+
+.paginaUsuario-episodio img {
+    width: 200px;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.paginaUsuario-episodio div {
+    width: 19.5%;
+    /* height: 100%;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cuadro_episodio {
+    width: 120px;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.box_detalle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_detalle {
+    width: 29%;
+    min-width: 300px;
+    height: auto;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-bottom: 4%;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+.info_detalle {
+    width: 65%;
+    height: auto;
+    text-align: center;
+}
+
+.texto_detalle{
+    font-size: 1.5em;
+
+}
